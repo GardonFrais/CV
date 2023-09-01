@@ -87,6 +87,17 @@ ul {
     width: var(--icon-space);
 }
 
+.stars {
+    display: inline-flex;
+    margin-left: auto;
+    font-size: 1rem;
+}
+
+.fa-star {
+	color: #E2E9C0;
+	padding: 0.0625rem;
+}
+
 .right-col {
     grid-area: right-column;
     display: grid;
