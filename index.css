@@ -66,9 +66,16 @@ ul {
 }
 
 .skills {
+    width: fit-content;
     font-size: 1.1rem;
     letter-spacing: 1px;
     margin: 0 0 1rem;
+}
+
+.skills li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 .skills li:before {
@@ -106,18 +113,18 @@ ul {
     list-style-type: circle;
 }
 
-.text-light-green {
+.color-light-green {
     color: #E2E9C0;
 }
 
-.text-green {
+.color-green {
     color: #7AA95C;
 }
 
-.text-brown {
+.color-brown {
     color: #1E0F1C;
 }
 
-.text-uppercase{
+.text-uppercase {
     text-transform: uppercase; 
 }
