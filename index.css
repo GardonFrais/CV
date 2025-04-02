@@ -32,6 +32,10 @@ ul {
   padding: 0;
 }
 
+strong {
+  font-weight: 600;
+}
+
 .cv-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
